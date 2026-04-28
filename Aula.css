@@ -1,0 +1,178 @@
+
+
+
+
+body{
+   
+    background-color: rgb(108, 189, 226);
+   text-align: center;
+
+}
+
+h1{
+
+    color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h2{
+
+     color: brown;
+    
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+h3{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+ 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+img{
+width: 700px;
+
+
+}
+
+button{
+
+    background-color: bisque ;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+nav {
+
+    background: #222;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+
+margin: 15px;
+}
+
+nav ul li a {
+
+    color: rgb(242, 242, 245);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+#home {
+
+    background: url('img/Studio_Ghibli_Logo\ 3.webp') center/cover no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 40px;
+    font-family: Cambria, serif;
+
+}
+
+#home p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+section {
+
+    padding: 80px 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form button {
+
+
+    background: #ccc;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+
+}
+
+form button:hover {
+
+    background: #480bd6;
+}
+
+footer {
+
+    background: white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+   margin-bottom:40px;
+}
+
+ul{
+    margin-top:40px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
