@@ -18,21 +18,3 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-
-    const formContato = document.getElementById("form-contato");
-    const msgSucesso = document.getElementById("mensagem-sucesso");
-
-    if (formContato && msgSucesso) {
-        formContato.addEventListener("submit", function (evento) {
-            evento.preventDefault();
-            
-            const nomeUsuario = document.getElementById("nome").value;
-            
-            msgSucesso.textContent = `Obrigado pelo contato, ${nomeUsuario}! Sua mensagem sobre o universo Ghibli foi enviada com sucesso.`;
-            msgSucesso.classList.remove("d-none");
-            
-            formContato.reset();
-            msgSucesso.scrollIntoView({ behavior: 'smooth' });
-        });
-    }
-});
