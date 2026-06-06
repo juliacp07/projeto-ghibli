@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     if (btnTema) {
         btnTema.addEventListener("click", function () {
+            alert("botão clicado!");
             document.body.classList.toggle("modo-escuro");
             
             if (document.body.classList.contains("modo-escuro")) {
